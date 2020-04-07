@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background:cover;
+    
+}
+div{
+    
+    text-align: center;
+    height:400px;
+    background-size:cover;
+    /* background:url("/second.jpg"); */
+    
+}
+.mamun{
+    color:white;
+    
+    background:url("./second.jpg");
+    background-size:cover;
+    height:100vh;
+    background-attachment: fixed;
+    filter:blur(10px);
+}
+.masum{
+    color:white;
+    background:url("./third.jpg");
+    background-size:cover;
+    height:100vh;
+    background-attachment: fixed;
+}
+.mehedi{
+    color:white;
+    background:url("./first.jpg");
+    background-size:cover;
+    height:100vh;
+    background-attachment: fixed;
+    
+}
+.asha{
+    color:white;
+    position:absolute;
+    top:20%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border:10px solid white;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    outline:2px solid black;
+
+
+
+
+    /* border:10px inset #ffffff; */
+   
+}
+.asha :hover{
+    outline-color: blue;
+}
+.mishu{
+    position:absolute;
+    top:70%;
+    left:50%;
+    transform:translate(-50%,-50%);
+
+}
+.dhaka ul li{
+    
+    right:100%;
+    
+    
+}
+    
